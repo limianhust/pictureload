@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>pictures Load</title>
+    <script src='http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js' ></script>
+    <style>
+        .content{
+            width: 100%;
+        }
+        .content .picture{
+
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            width: 90%;
+        }
+        .content .picture li{
+            list-style: none;
+            min-width: 300px;
+
+        }
+        .content .loadmore{
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body>
+<div class="content">
+    <ul class="picture">
+        <li>
+            <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">
+        </li>
+        <li>             <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">         </li>
+        <li>             <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">         </li>
+        <li>             <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">         </li>
+        <li>             <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">         </li>
+        <li>             <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">         </li>
+        <li>             <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">         </li>
+        <li>             <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">         </li>
+        <li>             <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">         </li>
+        <li>             <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">         </li>
+        <li>             <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">         </li>
+        <li>             <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">         </li>
+        <li>             <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">         </li>
+        <li>             <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">         </li>
+        <li>             <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">         </li>
+        <li>             <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">         </li>
+        <li>             <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">         </li>
+        <li>             <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">         </li>
+        <li>             <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">         </li>
+        <li>             <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">         </li>
+        <li>             <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">         </li>
+        <li>             <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">         </li>
+        <li>             <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">         </li>
+        <li>             <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">         </li>
+        <li>             <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">         </li>
+        <li>             <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">         </li>
+        <li>             <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">         </li>
+        <li>             <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">         </li>
+        <li>             <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">         </li>
+        <li>             <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">         </li>
+        <li>             <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">         </li>
+        <li>             <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">         </li>
+        <li>             <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">         </li>
+        <li>             <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">         </li>
+        <li>             <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">         </li>
+        <li>             <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">         </li>
+        <li>             <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">         </li>
+        <li>             <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">         </li>
+        <li>             <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">         </li>
+        <li>             <img src="http://i4.buimg.com/567571/c2bc951f822c4dee.png" alt="" data-src="http://i2.muimg.com/567571/395348c3ffac5dc3.jpg">         </li>
+    </ul>
+    <p class="loadmore">加载更多</p>
+</div>
+<script>
+    $(window).on('scroll',function () {
+        $(".content .picture li img").not('.load').each(function (key,value) {
+            //console.log(this)
+            var $this = $(this)
+            if (isVisible($this)){
+                console.log($this.attr('data-src'))
+                $this.attr('src',$this.attr('data-src'))
+                $this.addClass('load')
+            }
+        })
+    })
+    function isVisible($node) {
+        var top = $node.offset().top
+        var left = $node.off().left
+        if ($(window).scrollTop() < (top + $node.outerHeight()) && ($(window).scrollTop() + $(window).height()) > top){
+            return true
+        } else{
+            return false
+        }
+    }
+</script>
+</body>
+</html>
